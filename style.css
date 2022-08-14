@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.firstSection {
+    background-color: #042f61;
+    color: antiquewhite;
+    
+}
+
+.header {
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+  }
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-right: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
+}
+
+.main {
+    font-size: 32px;
+
+}
+
+.underMain {
+    flex: auto;
+    
+}
+
+button {
+    background-color: #3366ff;
+    border-color: rgb(0, 140, 255);
+    border-style: solid;
+    font-weight: bold;
+}
+
+.placehold {
+    margin: 0 100px 30px 0;
+}
+
+.pugPic {
+    width: auto;
+    height: 250px;
+}
