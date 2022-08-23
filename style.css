@@ -35,7 +35,7 @@ a {
     display: flex;
     list-style-type: none;
     font-size: 16px;
-    gap: 16px;
+    gap: 45px;
 }
 
 .content {
@@ -124,6 +124,7 @@ button {
 .thirdSection {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #e5e7ebee;
     padding: 35px 0 35px 0;
 }
@@ -137,4 +138,46 @@ button {
     margin: 75px 150px 75px 150px;
     width: 1000px;
 }
+
+.fourthSection {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    padding: 35px 0 35px 0;
+}
+
+.actionContain {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.action {
+    display: flex;
+    background-color: #3366ff;
+    color: antiquewhite;
+    margin: 35px 350px 35px 350px;
+    padding: 55px 70px 55px 70px;
+    width: 800px;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.goTime {
+    font-size: 28px;
+}
+
+.actionWords {
+    font-size: 16px;
+}
+
+.finalSection {
+    display: flex;
+    padding: 35px 0 35px 0;
+    justify-content: center;
+    background-color: #042f61;
+    color: antiquewhite;
+}
+
 
