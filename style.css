@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .firstSection {
@@ -13,14 +14,16 @@ body{
 
 .header {
     display: flex;
-    margin-top: 12px;
+    margin: 18px 150px 48px 150px;
     justify-content: space-between;
 }
 
 .head {
     display: flex;
-    align-items: center;
-    margin-left: 100px;
+    width: auto;
+    height: 115px;
+    border-radius: 50%;
+    background-color: coral;
 }
 
 a {
@@ -31,24 +34,32 @@ a {
 .links {
     display: flex;
     list-style-type: none;
+    font-size: 16px;
     gap: 16px;
-    margin-right: 100px;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
-    margin: 0 100px 0 100px;
+    margin: 0 150px 50px 150px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: flex-start;
 }
 
 .main {
-    font-size: 32px;
-
+    font-size: 38px;
+    font-weight: 700;
 }
 
 .underMain {
-    flex: auto;
-    
+    font-size: 18px;
+    font-weight: 300;
 }
 
 button {
@@ -56,13 +67,74 @@ button {
     border-color: rgb(0, 140, 255);
     border-style: solid;
     font-weight: bold;
+    font-size: 18px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 12px;
 }
 
 .placehold {
-    margin: 0 100px 30px 0;
+    margin: 0 150px 30px 0;
 }
 
 .pugPic {
     width: auto;
     height: 250px;
 }
+
+.secondSection {
+    background-color: aliceblue;
+    color: black;
+    padding-bottom: 18px;
+}
+
+.topMC {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0 18px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.perImage {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.images {
+    display: flex;
+    margin: 12px 150px 12px 150px;
+    justify-content: center;
+    gap: 175px;
+}
+
+.pugPic2 {
+    width: 125px;
+    height: 155px;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #3366ff;
+}
+
+.underPic {
+    width: 125px;
+    text-align: center;
+}
+
+.thirdSection {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7ebee;
+    padding: 35px 0 35px 0;
+}
+
+.funFact {
+    display: flex;
+    font-size: 34px;
+    font-weight: 200;
+    font-style: italic;
+    justify-content: center;
+    margin: 75px 150px 75px 150px;
+    width: 1000px;
+}
+
